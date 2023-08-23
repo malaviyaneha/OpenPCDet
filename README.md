@@ -3,8 +3,6 @@
 
 ### What does `OpenPCDet` toolbox do?
 
-Note that we have upgrated `PCDet` from `v0.1` to `v0.2` with pretty new structures to support various datasets and models.
-
 `OpenPCDet` is a general PyTorch-based codebase for 3D object detection from point cloud. 
 It currently supports multiple state-of-the-art 3D object detection methods with highly refactored codes for both one-stage and two-stage 3D detection frameworks.
 
@@ -36,6 +34,9 @@ Contributions are also welcomed.
 
 
 ### PointPillars on the KITTI Dataset
+![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/26c69e51-ca76-43fb-937b-d29c70b84ed7)
+![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/11dc6884-a3eb-4c9c-88e6-c901754b4b3e)
+
 
 ### Overview
 **PointPillars** is renowned for its unique combination of high inference speed and accuracy. On the esteemed KITTI dataset for autonomous vehicles, it achieves an unparalleled speed of 62 fps. This performance is substantially ahead of many contemporary models in the domain.
