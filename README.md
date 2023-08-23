@@ -34,10 +34,6 @@ Contributions are also welcomed.
 
 
 ### PointPillars on the KITTI Dataset
-![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/26c69e51-ca76-43fb-937b-d29c70b84ed7)
-![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/11dc6884-a3eb-4c9c-88e6-c901754b4b3e)
-
-
 ### Overview
 **PointPillars** is renowned for its unique combination of high inference speed and accuracy. On the esteemed KITTI dataset for autonomous vehicles, it achieves an unparalleled speed of 62 fps. This performance is substantially ahead of many contemporary models in the domain.
 
@@ -70,6 +66,10 @@ The architectural backbone consists of cascading 3D convolutional layers. Their 
 - **θ (theta)**: Object's rotational angle around the z-axis, signifying its orientation.
 
 The insights and implementations are inspired and derived from the repository of [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+
+####Pointpillar Results with Benchmarking KITTI Dataset.
+![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/26c69e51-ca76-43fb-937b-d29c70b84ed7)
+![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/11dc6884-a3eb-4c9c-88e6-c901754b4b3e)
 
 ### KITTI Dataset Benchmarking
 (Insert benchmarking details, graphs, charts, and other relevant visual aids here.)
