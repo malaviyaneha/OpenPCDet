@@ -92,10 +92,12 @@ Firstly, we will discuss the difference between benchmarking the KITTI dataset a
 ![Alt text](image-3.png)
 
 ### Why Pointpillar performed better?
-•	Pointpillar is designed to be more efficient by converting the 3D point cloud into a pseudo-image (2D representation) and then performing 2D convolutions. This simpler design can be more robust to noise and variations, especially if the more complex models are not fine-tuned.
-•	PV-RCNN and PointRCNN are more intricate and might perform better when finely tuned on the specific dataset. When applied directly without fine-tuning on raw data, they might not achieve their peak performance.
-•	The raw KITTI dataset might contain more noise or unfiltered points from the LiDAR. PointPillar's design, which involves grid-based pooling, inherently acts as a noise filter, making it more robust to such unprocessed data.
-•	If the models (PV-RCNN, PointRCNN) were trained intensively on the benchmark KITTI dataset, they might have unintentionally learned some specific characteristics of that dataset that do not generalize well to the raw KITTI dataset or other datasets. This over-optimization for the benchmark data can hinder performance when the model encounters raw or different data distributions.
+
+- Pointpillar is designed to be more efficient by converting the 3D point cloud into a pseudo-image (2D representation) and then performing 2D convolutions. This simpler design can be more robust to noise and variations, especially if the more complex models are not fine-tuned.
+- PV-RCNN and PointRCNN are more intricate and might perform better when finely tuned on the specific dataset. When applied directly without fine-tuning on raw data, they might not achieve their peak performance.
+- The raw KITTI dataset might contain more noise or unfiltered points from the LiDAR. PointPillar's design, which involves grid-based pooling, inherently acts as a noise filter, making it more robust to such unprocessed data.
+- If the models (PV-RCNN, PointRCNN) were trained intensively on the benchmark KITTI dataset, they might have unintentionally learned some specific characteristics of that dataset that do not generalize well to the raw KITTI dataset or other datasets. This over-optimization for the benchmark data can hinder performance when the model encounters raw or different data distributions.
+
 
 
 ### KITTI Dataset Benchmarking
