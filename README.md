@@ -68,9 +68,6 @@ The insights and implementations are inspired and derived from the repository of
 ![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/26c69e51-ca76-43fb-937b-d29c70b84ed7)
 ![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/11dc6884-a3eb-4c9c-88e6-c901754b4b3e)
 
-### Pointpillar Results with RAW KITTI Dataset.
-![Alt text](image.png)
-
 ### Difference Bteween Benchmarking KITTI Dataset and Raw KITTI Dataset
 Firstly, we will discuss the difference between benchmarking the KITTI dataset and the Raw KITTI dataset.
 
