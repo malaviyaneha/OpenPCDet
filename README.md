@@ -53,6 +53,8 @@ After PointNet's operations, the resultant tensor dimensions stand at `(C, P, N)
 ### Backbone and Detection Head
 The architectural backbone consists of cascading 3D convolutional layers. Their purpose is to distill features from the processed input at various scales. For pinpointing objects, the **SSD (Single Shot Multibox Detector)** is brought into play as the detection head. Originating from 2D image detection, the SSD, in this context, has been adapted to predict additional parameters suited for 3D data, specifically height, and elevation.
 
+![image](https://github.com/malaviyaneha/OpenPCDet/assets/116248447/e0708544-3f23-4174-b80d-f5559baa7505)
+
 #### Bounding Box Attributes:
 - **x**: Center coordinates on the x-axis (lengthwise).
 - **y**: Center coordinate on the y-axis (widthwise).
