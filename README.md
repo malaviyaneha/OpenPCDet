@@ -98,13 +98,6 @@ Firstly, we will discuss the difference between benchmarking the KITTI dataset a
 - The raw KITTI dataset might contain more noise or unfiltered points from the LiDAR. PointPillar's design, which involves grid-based pooling, inherently acts as a noise filter, making it more robust to such unprocessed data.
 - If the models (PV-RCNN, PointRCNN) were trained intensively on the benchmark KITTI dataset, they might have unintentionally learned some specific characteristics of that dataset that do not generalize well to the raw KITTI dataset or other datasets. This over-optimization for the benchmark data can hinder performance when the model encounters raw or different data distributions.
 
-
-
-### KITTI Dataset Benchmarking
-(Insert benchmarking details, graphs, charts, and other relevant visual aids here.)
-
-## Model Zoo
-
 ### KITTI 3D Object Detection Baselines
 Selected supported methods are shown in the below table. The results are the 3D detection performance of moderate difficulty on the *val* set of KITTI dataset.
 * All LiDAR-based models are trained with 8 GTX 1080Ti GPUs and are available for download. 
